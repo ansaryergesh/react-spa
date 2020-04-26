@@ -2,7 +2,7 @@ export const LEADERS = [
     {
       id: 0,
       name: 'Peter Pan',
-      image: '/assets/images/alberto.png',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
       featured: false,
@@ -11,7 +11,7 @@ export const LEADERS = [
     {
       id: 1,
       name: 'Dhanasekaran Witherspoon',
-      image: '/assets/images/alberto.png',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9',
       designation: 'Chief Food Officer',
       abbr: 'CFO',
         featured: false,
@@ -20,7 +20,7 @@ export const LEADERS = [
     {
       id: 2,
       name: 'Agumbe Tang',
-      image: '/assets/images/alberto.png',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
       designation: 'Chief Taste Officer',
       abbr: 'CTO',
         featured: false,
@@ -29,7 +29,7 @@ export const LEADERS = [
     {
       id: 3,
       name: 'Alberto Somayya',
-      image: '/assets/images/alberto.png',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,
