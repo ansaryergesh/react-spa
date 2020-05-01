@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem,Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import CommentForm from './CommentForm';
 
     function RenderDish({dish}) {
         return (
@@ -31,6 +32,7 @@ import { Link } from 'react-router-dom';
                 <h4>Comments</h4>
                 <ul className="list-unstyled">
                     {commentList}
+                    <CommentForm />
                 </ul>
             </div>
         );
@@ -57,8 +59,9 @@ import { Link } from 'react-router-dom';
                         <div className="col-12 col-md-5 m-1">
                             <RenderComments comments={props.comments} />
                         </div>
+                   
                     </div>
-                </div>
+                </div> 
             );
         }
         else {
