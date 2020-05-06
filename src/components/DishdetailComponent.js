@@ -15,7 +15,7 @@ import {Loading} from './LoadingComponent';
         );
     }
 
-    function RenderComments({comments, addComment, dishId}) {
+    function RenderComments({comments, postComment, dishId}) {
         var commentList = comments.map(comment => {
             return (
                 <li key={comment.id} >
@@ -32,7 +32,7 @@ import {Loading} from './LoadingComponent';
                 <h4>Comments</h4>
                 <ul className="list-unstyled">
                     {commentList}
-                    <CommentForm dishId={dishId} addComment={addComment} />
+                    <CommentForm dishId={dishId} postComment={postComment} />
                 </ul>
             </div>
         );
@@ -76,7 +76,7 @@ import {Loading} from './LoadingComponent';
                         </div>
                         <div className="col-12 col-md-5 m-1">
                             <RenderComments comments={props.comments} 
-                                addComment= {props.addComment}
+                                postComment= {props.postComment}
                                 dishId={props.dish.id}
                             />
                         </div>
